@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Parisienne&family=Ubuntu:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/78f946e37b.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Stona internetowa</title>
+    <link rel="shortcut icon" href="img/flask-solid.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <a class="navbar-brand tytul" href="index.html"><i class="fas fa-flask"></i> Moja strona</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Strona główna <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://pl.wikipedia.org/wiki/Bootstrap_(framework)" target="blank"> <i class="fas fa-globe-americas"></i> Wikipedia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="o-mnie.html"><i class="fas fa-user-graduate"></i> O mnie</a>
+                </li>
+              </ul>
+            </div>
+            <div class="data">
+
+            </div>
+          </nav>
+
+
+        <!-- zawartosc strony -->
+        <div class="content">
+            <h1>O mnie:</h1>
+            <div class="txt-img-element">
+                <img src="img/circle-cropped.png" alt="Moje zdjęcie" class="about-img">
+                <p>Nazywam się Łukasz i mam 16 lat, uczęszczam do I klasy liceum po gimnazjum. Moimi ulubionymi przedmiotami są chemia, fizyka, biologia i matematyka. Poza tym całkiem upodobałem sobie web development, sztukę i czytanie. Uwielbiam cappucino i pizzę z anansem.</p>
+            </div>
+            <div class="txt-img-element">
+                <img src="img/2317958.png" alt="Moje zdjęcie" class="about-img">
+                <p>Od dziecka byłem ciekaw jak działa świat. Kiedy w szkole podstawowej dla moich rówieśników nauka była koniecznym do odrbienia obowiązkiem, ja pogłębiałem swoje pasje oglądając kanały popularnonaukowe. Choć moim "konikiem" jest chemia, to preferuję interdyscyplinarne podejście do nauk ścisłych, dlatego tak samo lubię fizykę, biologię czy matematykę.</p>
+            </div>
+            <hr>
+            <h2>Moje Umiejętności:</h2>
+            <table class="table table-light">
+                <thead class="abc">
+                  <tr>
+                    <th scope="col">Umiejętność</th>
+                    <th scope="col">Stopień opanowania</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">Znajomość języków programowania i frameworków</td>
+                    <td>HTML5, CSS3, JS, Bootstrap, jQuery, Node.js + Express, EJS, MongoDB, SQL, react</td>
+                  </tr>
+                  <tr>
+                      <td scope="row">Znajomość języków obcych</td>
+                      <td>Polski: natywny, Angielski: B2+, Hiszpański: B1</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Umiejętność zarządzania czasem </td>
+                    <td><span n="2"></span></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Umiejętność pracy pod presją czasu</td>
+                    <td><span n="5"></span></td>
+                </tr>
+                <tr>
+                    <td scope="row">Kreatywność</td>
+                    <td><span n="5"></span></td>
+                </tr>
+                <tr>
+                    <td scope="row">Umiejętność pracy zespołowej</td>
+                    <td><span n="3"></span></td>
+                </tr>
+                <tr>
+                    <td scope="row">Skuteczna komunikacja</td>
+                    <td><span n="4"></span></td>
+                </tr>
+                <tr>
+                    <td scope="row">Dostosowywanie się</td>
+                    <td><span n="5"></span></td>
+                </tr>
+                </tbody>
+              </table>
+
+            <hr>
+            <h2>Moje hobby:</h2>
+            <div class="list">
+                <ul>
+                    <li>Anime & Manga</li>
+                    <li>Chemia</li>
+                    <li>Filozofia</li>
+                    <li>Fizyka</li>
+                    <li>Jedzenie</li>
+                    <li>Kulutura Azjatycka <ul>
+                        <li>Kuchnia</li>
+                        <li>Ubiór</li>
+                        <li>Mentalność</li>
+                        <li>Religia</li>
+                    </ul>
+                    </li>
+                    <li>Literatura</li>
+                    <li>Matematyka</li>
+                    <li>Psychologia</li>
+                </ul>
+            </div>
+            
+
+        </div>
+
+        <!-- stopka -->
+        <footer> &copy; Łukasz Rybski 2020</footer>
+    </div>
+
+    <!-- jQuery and popper-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- My scripts -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
